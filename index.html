@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru"><head>
+    <meta charset="utf-8">
+    <title>BASE 64</title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+    	body {
+    		padding: 50px;
+    	}
+    	.help-block {  
+			display: inline;
+			margin: 0;
+			color: #08E;
+			border-bottom: 1px solid #08E;
+			cursor: pointer;
+		}
+		.help-block:hover {
+			color: #0AE;
+			border-bottom: 1px solid #0AE;
+		}
+		input {
+			margin: 0 !important;
+		}
+		.fieldset {
+			margin-left: auto;
+			display: inline-block;
+			margin-right: auto;
+			
+		}
+    </style>
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  <body>
+    	<form>
+    		<span class="fieldset">
+    			<h1>Base 64</h1>
+    			<label>Введите строку для кодирования, например <span class="help-block">base64</span></label>
+    			<input class="decode" type="text" placeholder="Любой текст">
+    			<button class="action btn-primary btn" data-act="encode">►</button>
+    			<input  class="encode" type="text"disabled="disabled" placeholder="BASE 64">
+    		</span>
+    	</form>
+    	<h3>Выполнили</h3>
+    	<p>Рякшина Юлия</p>
+    	<p>Черепанова Ксения</p>
+  <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body></html>
